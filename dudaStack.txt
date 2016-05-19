@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/11375712/what-is-the-use-of-main-interface-option-in-the-build-settings-for-ios-applicati
