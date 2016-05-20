@@ -1,0 +1,81 @@
+//GuillermoDatos
+bancoazteca\B656742
+Banco/18
+
+//Para conectarse a maquina comparte
+EXT522196\adminPortal
+BancoAzteca2015Ago
+
+usuario para conectarse a qa aplicacion
+contrato101162
+
+URL A CONECTARSE
+public static String PATH_QA_PROD ="https://10.51.41.234:8443";
+
+
+git clone EXT522196\adminPortal@10.51.41.234:/c/punto-trader
+
+
+DetalleEmisora
+activity_detalle_emisora
+AccionesAdapterC
+ConstantesApp
+list_acciones_layout_c
+TopAlzasFragmentC
+TopBajasFragmentC
+AllStockFragmentC
+DataEmisorasC
+Favorites
+TopBajasC
+TopAlzasC
+SearchActivity
+ChartC
+CreaConexion
+GraficaEmisorasTask
+ConstantesApp
+ListaAccionesTaskC
+fade_green
+IndicadoresIndicesTaskC
+
+
+custom_market_view_c
+CustomMarkerView
+content.xml
+
+
+
+En codepad me quede en: 
+fragment_indices_fragment_c
+ConexionGenerica
+IndicesFragmentC
+fragment_indices_fragment.xml
+ListaTodasAccionesTaskC
+CreaConexion
+Login_Home_Anexo
+
+
+
+Alteracion en:
+IndicadoresResumenTask
+
+
+
+
+EmisorasPrincipalAdapter --> MERCADO_DATO_INFOEMISORA_LISTA
+if(tInfoEmiTaskVol.getStatus() != Status.RUNNING &&  DatosUsuarioSesion.banderaUsuarioLogIn == true){	
+				tInfoEmiTaskVol.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,ConstantesApp.MERCADO_DATO_INFOEMISORA_LISTA, holder.emisoraNombre.getText().toString().trim(),holder.nombreSerieVw.getText().toString().trim(), null);
+			}
+
+DetalleEmisoraTelefonos
+
+MercadoTask
+
+
+
+ChartC chart = new ChartC();
+						chart.ParserResponseChartJson(respuesta);
+
+
+(43516.66*100)/43585.23 - 100
+(43375.31*100)/43585.23 - 100
+
